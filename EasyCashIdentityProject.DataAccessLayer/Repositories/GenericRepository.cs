@@ -41,7 +41,7 @@ namespace EasyCashIdentityProject.DataAccessLayer.Repositories
             using var context = new Context();
             context.Set<T>().Update(t);
             context.SaveChanges();
-            //Ders 9 dan devam et
+            
         }
     }
 }
